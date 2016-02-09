@@ -28,26 +28,26 @@ class Solution(object):
 
     	return [index1 + 1, index2 + 1]
 
-
-score
+# score
 # Your runtime beats 31.77% of python submissions.
 
-# test
+# test function
 def test(numsTargetPairs):
 	sumObject =  Solution()
 	for pair in numsTargetPairs:
 		nums, target = pair
 		results = sumObject.twoSum(nums, target)
+		
 		print "%d + %d = %d" % (nums[results[0] - 1], nums[results[1] - 1], target) 
 
+# test run
 pairs = [
-			([1,10,8,13,25,2], 27),
-			([0,1,2,0], 0),
-			([4,1,2,4,2], 8),
-			([3,2,4], 6),
-			([1,2,3,4,5], 8),
-			([-1,-2,-3,-4,-5], -8),
-		]
-	
+	([1,10,8,13,25,2], 27),
+	([0,1,2,0], 0),
+	([4,1,2,4,2], 8),
+	([3,2,4], 6),
+	([1,2,3,4,5], 8),
+	([-1,-2,-3,-4,-5], -8), 
+]
 test(pairs)
 

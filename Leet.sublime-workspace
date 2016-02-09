@@ -1,0 +1,774 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"solu",
+				"Solution"
+			],
+			[
+				"cor",
+				"cordovaDialog"
+			],
+			[
+				"Rea",
+				"Reading3"
+			],
+			[
+				"prom",
+				"prompt"
+			],
+			[
+				"Direc",
+				"direction"
+			],
+			[
+				"Remo",
+				"RemodelText"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"gr",
+				"grayWrapper"
+			],
+			[
+				"title",
+				"titleWrapper"
+			],
+			[
+				"ex",
+				"Exam"
+			],
+			[
+				"Day",
+				"DayItem"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"mom",
+				"Moment"
+			],
+			[
+				"S",
+				"StyleSheet"
+			],
+			[
+				"Week",
+				"Weekdays"
+			],
+			[
+				"star",
+				"startID"
+			],
+			[
+				"topi",
+				"topicFlag"
+			],
+			[
+				"top",
+				"topic"
+			],
+			[
+				"talk",
+				"talkBase"
+			],
+			[
+				"get",
+				"getsize"
+			],
+			[
+				"to",
+				"topicDict"
+			],
+			[
+				"ted",
+				"TED_TOPIC_ROOT"
+			],
+			[
+				"toi",
+				"topicDict"
+			],
+			[
+				"file",
+				"fileBase"
+			],
+			[
+				"path",
+				"pathIn"
+			],
+			[
+				"ret",
+				"results"
+			],
+			[
+				"tex",
+				"texts"
+			],
+			[
+				"soup",
+				"soupIn"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"cit",
+				"cti_sum_url"
+			],
+			[
+				"cti",
+				"cti_sum_url"
+			],
+			[
+				"cit_url",
+				"CTI_SEARCH_URL_ROOT"
+			],
+			[
+				"log",
+				"logins"
+			],
+			[
+				"dirs",
+				"dirsToMake"
+			],
+			[
+				"sta",
+				"STAGE_RESULT_DIR"
+			],
+			[
+				"fil",
+				"filters"
+			],
+			[
+				"filte",
+				"FILTERS"
+			],
+			[
+				"filt",
+				"filter"
+			],
+			[
+				"logi",
+				"LOGINS"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"sim",
+				"simPath"
+			],
+			[
+				"syn",
+				"synonym"
+			],
+			[
+				"sy",
+				"synonyms"
+			],
+			[
+				"all",
+				"allSynomyn"
+			],
+			[
+				"syno",
+				"synonyms"
+			],
+			[
+				"synomy",
+				"synonyms"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# https://leetcode.com/problems/add-two-numbers/\n# 2. Add Two Numbers My Submissions Question\n# Total Accepted: 110384 Total Submissions: 510092 Difficulty: Medium\n# You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.\n\n# Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)\n# Output: 7 -> 0 -> 8\n\n# Definition for singly-linked list.\nclass ListNode(object):\n    def __init__(self, x):\n        self.val = x\n        self.next = None\n\nclass Solution(object):\n    def addTwoNumbers(self, l1, l2):\n        \"\"\"\n        :type l1: ListNode\n        :type l2: ListNode\n        :rtype: ListNode\n        \"\"\"\n\n        list = ListNode\n        \n\n# Your runtime beats 31.77% of python submissions.\n\n# test\ndef test(numsTargetPairs):\n	sumObject =  Solution()\n	for pair in numsTargetPairs:\n		nums, target = pair\n		results = sumObject.twoSum(nums, target)\n		print \"%d + %d = %d\" % (nums[results[0] - 1], nums[results[1] - 1], target) \n\npairs = [\n			([1,10,8,13,25,2], 27),\n			([0,1,2,0], 0),\n			([4,1,2,4,2], 8),\n			([3,2,4], 6),\n			([1,2,3,4,5], 8),\n			([-1,-2,-3,-4,-5], -8),\n		]\n	\ntest(pairs)\n\n",
+			"file": "Medium/002.AddTwoNumbers.py",
+			"file_size": 1208,
+			"file_write_time": 130962305760000000,
+			"settings":
+			{
+				"buffer_size": 1219,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Medium/001.TwoSum.py",
+			"settings":
+			{
+				"buffer_size": 1402,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 462.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Data/code/marathon/LeetCodePlus/Medium"
+	],
+	"file_history":
+	[
+		"/Volumes/Data/code/marathon/LeetCodePlus/Medium/001.TwoSum.py",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Data/code/ionic/weclass/www/index.html",
+		"/Users/mike/weclass/www/js/factory.js",
+		"/Users/mike/weclass/www/templates/tab-dash.html",
+		"/Volumes/Data/code/githubInbox/Chapter-6/book-store/www/lib/ionic/css/ionic.css",
+		"/Volumes/Data/code/githubInbox/Chapter-6/book-store/www/lib/ionic/css/ionic.min.css",
+		"/Volumes/Data/code/githubInbox/Chapter-6/book-store/www/lib/ionic/scss/_type.scss",
+		"/Users/mike/Desktop/homework.html",
+		"/Volumes/Data/code/githubInbox/Fluid-Width-Video/demo.html",
+		"/Users/mike/weclass/www/templates/tab-homework.html",
+		"/Volumes/Data/code/githubInbox/Chapter-6/book-store/www/templates/browse.html",
+		"/Users/mike/weclass/www/templates/tabs.html",
+		"/Volumes/Data/code/githubInbox/Chapter-6/book-store/www/templates/menu.html",
+		"/Volumes/Data/code/githubInbox/Chapter-6/book-store/www/js/controllers.js",
+		"/Users/mike/weclass/www/js/app.js",
+		"/Users/mike/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/mike/myApp/www/index.html",
+		"/Users/mike/Desktop/excel.py",
+		"/Users/mike/Documents/card/19-12-2015/out/1.00.ass",
+		"/Users/mike/Documents/card/15-12-2015/keynote/ipa2.ass",
+		"/Users/mike/Documents/card/15-12-2015/keynote/ipa.ass",
+		"/Users/mike/Documents/card/16-12-2015/out/0.95.ass",
+		"/Users/mike/Desktop/speed.ass",
+		"/Volumes/Data/code/Rn/SimExam/goodluck/UI/Listening1.js",
+		"/Volumes/Data/code/Rn/SimExam/goodluck/UI/Speaking1.js",
+		"/Volumes/Data/code/Rn/SimExam/goodluck/UI/Writing3.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Writing.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Writing2.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Reading1.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/View.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/node_modules/react-native/Libraries/Utilities/AlertIOS.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/index.ios.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Reading3.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Writing3.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Reading2.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/AlertIOSExample.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/UIMaker/RemodelText.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/UIMaker/RemodelString.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/UIMaker/db.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Options.js",
+		"/Volumes/Data/code/Rn/gitExample/react-native/Examples/UIExplorer/ViewExample.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Alert.js",
+		"/Volumes/Data/code/Rn/gitExample/react-native/Examples/UIExplorer/ScrollViewExample.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Reading.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/Score.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/UI/UIMaker/weekdays.js",
+		"/Volumes/Data/code/Rn/SimExam/jiong-book/node_modules/react-native/Libraries/Components/View/View.js",
+		"/Volumes/Data/code/Rn/jiong-book/index.android.js",
+		"/Volumes/Data/code/Rn/action/index.ios.js",
+		"/Volumes/Data/code/Rn/_exampleFromT/reading/After/iOS/Info.plist",
+		"/Volumes/Data/code/Rn/jiong-book/node_modules/react-native/node_modules/react-haste/renderers/shared/reconciler/instantiateReactComponent.js",
+		"/Volumes/Data/code/Rn/AwesomeProject/index.ios.js",
+		"/Volumes/Data/code/githubInbox/jiong-book/index.ios.js",
+		"/Volumes/Data/code/githubInbox/taking/MultiView/index.ios.js",
+		"/Volumes/Data/code/Rn/mikeSnowMan/index.ios.js",
+		"/Volumes/Data/code/Rn/exampleFromT/buildiosappsreactnative/8-build-ios-apps-react-native-m8-exercise-files/After/iOS/Info.plist",
+		"/Volumes/Data/code/Rn/AwesomeProject/index.ios copy.js",
+		"/Volumes/Data/code/Rn/AwesomeProject/index.android.js",
+		"/Volumes/Data/code/githubInbox/author_word_cloud/word_freq.py",
+		"/Volumes/Data/code/githubInbox/uniqueWords/uniqueWords.py",
+		"/Volumes/Data/D/test/Folders/JBTest.Workspace/WeChat/cert/PHP版/api_test.php",
+		"/Volumes/Data/code/web/www/wechatPHP/example/native_notify.php",
+		"/Volumes/Data/code/python/sandbox.py",
+		"/Users/mike/Desktop/Listening 2",
+		"/Volumes/Data/code/Rn/back/AwesomeProject/index.ios.js",
+		"/Volumes/Data/code/php/QMysql/rawData/tsv/reading2.tsv",
+		"/Volumes/Data/code/php/QMysql/rawData/tsv/reading3.tsv",
+		"/Volumes/Data/code/php/QMysql/rawData/tsv/listening1.tsv",
+		"/Volumes/Data/doc/instock/projects/a.md",
+		"/Volumes/Data/code/code4app/hello/platforms/ios/HelloWorld/config.xml",
+		"/Volumes/Data/code/code4app/hello/config.xml",
+		"/Volumes/Data/code/php/phprunmysql/IPCBI.sublime-project",
+		"/Volumes/Data/code/sql/sql/src/Senior/WeeklyPOConsolidation.sql",
+		"/Volumes/Data/code/sql/sql/src/MVS/00.Projects/UNCERTIFIED.sql",
+		"/Volumes/Data/code/sql/sql/src/sandbox.sql",
+		"/Volumes/Data/code/python/aTT/src/Lib/FileKernel.py",
+		"/Users/mike/instantCode/autoURL/src/_entry.py",
+		"/Users/mike/instantCode/autoURL/src/ted.py",
+		"/Volumes/Data/code/python/autoURL/release/ted.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/genericpath.py",
+		"/Volumes/Data/code/python/bs4/_entry.py",
+		"/Volumes/Data/code/python/bs4/ted.py",
+		"/Volumes/Data/code/python/bs4/lib/FileKernel.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py",
+		"/Library/Python/2.7/site-packages/requests-2.8.1-py2.7.egg/requests/api.py",
+		"/Volumes/Data/code/python/noUIBrowser/src/cambridge.py",
+		"/Volumes/Data/code/gitTool/ted2mkv/scripts/ted2mkv",
+		"/Volumes/Data/code/gitTool/ted2mkv/scripts/ted-listall",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py",
+		"/Volumes/Data/code/Rn/MovieSite/index.ios.js",
+		"/Users/mike/Library/Preferences/com.eusoft.eudic.plist",
+		"/Library/Python/2.7/site-packages/enum-0.4.4-py2.7.egg/enum.py",
+		"/Volumes/Data/code/python/aTT/aTT.sublime-project",
+		"/Volumes/Data/code/python/aTT/src/autoTTLib/autoSIM.py",
+		"/Volumes/Data/code/python/aTT/src/autoTTLib/FileKernel.py",
+		"/Volumes/Data/code/python/aTT/src/autoTTLib/autoCTI.py",
+		"/Volumes/Data/code/python/aTT/src/autoTTLib/aTTMacro.py",
+		"/Volumes/Data/code/python/aTT/src/autoTT",
+		"/Volumes/Data/code/python/aTT/src/autoTTLib/autoTT.py",
+		"/Volumes/Data/code/python/aTT/src/autoTTLib/autoIssue.py",
+		"/Volumes/Data/code/python/aTT/src/localTT/watchers_michax.html",
+		"/Volumes/Data/code/python/bs4/input/multi-synonym.html",
+		"/Volumes/Data/code/python/bs4/lib/LFile.py",
+		"/Volumes/Data/code/python/bs4/0soup.py",
+		"/Volumes/Data/code/python/bs4/input/keywordsSp1.txt",
+		"/Volumes/Data/code/python/bs4/input/synonym.html",
+		"/Volumes/Data/code/python/bs4/input/keywords.txt",
+		"/Users/mike/_vimrc",
+		"/Users/mike/Desktop/hosts"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Volumes/Data/code/githubInbox/Chapter-6/book-store/www",
+			"/Volumes/Data/code/githubInbox/Chapter-6/book-store",
+			"/Volumes/Data/code/githubInbox/Chapter-6/book-store/www/templates",
+			"/Volumes/Data/code/githubInbox/Chapter-6/book-store/www/img",
+			"/Volumes/Data/code/githubInbox/Chapter-6/book-store",
+			"/Volumes/Data/code/Rn/SimExam/goodluck/UI",
+			"/Volumes/Data/code/php/phprunmysql/lib"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pa",
+			"0",
+			"-",
+			"return",
+			"index",
+			"int",
+			"brew",
+			"cast",
+			"\"thunderHref=\"",
+			"\n",
+			"\\n",
+			" ",
+			"purchaseItem",
+			"ListCtrl",
+			"ngCordova",
+			"cordova",
+			"text",
+			"});",
+			"Back off",
+			"src",
+			"iframe",
+			"scope",
+			"file",
+			"        })",
+			"cordova",
+			"File",
+			"fire",
+			"angularFire",
+			"Item",
+			"jpg",
+			"angular",
+			"icon",
+			"base",
+			"Chart",
+			"chart",
+			"dash",
+			"InfoCtrl",
+			"BooksFactory",
+			"Book",
+			"BooksFactory",
+			"app",
+			"scope",
+			"books",
+			"BooksFactory",
+			"Image",
+			"base",
+			"loader",
+			"js",
+			"token",
+			"hide",
+			"hide(",
+			"hide",
+			"subdued",
+			"register",
+			"hide",
+			"controllers",
+			"AuthFactory",
+			"books",
+			"BooksFactory",
+			"base",
+			"cover",
+			"labe",
+			"video",
+			"iframe",
+			"video",
+			"tab",
+			"templateUrl",
+			"template",
+			"templates",
+			"template",
+			"templates",
+			"ListContrl",
+			"balanced",
+			"bar",
+			"npm",
+			"install",
+			"Outline",
+			"TouchableHighlight",
+			"ScrollView",
+			"record",
+			"next",
+			"render",
+			"TabBarIOS",
+			"Reading",
+			"makeItems",
+			"Options",
+			"prompt",
+			"direction",
+			"greenWrapper",
+			"RemodelText",
+			"Remodel",
+			"RemodelText",
+			"Re",
+			"blueText",
+			"TouchableHighlight",
+			"Questions",
+			"Exam",
+			"Writing",
+			"Wrint",
+			"View",
+			"prompt",
+			"View",
+			"Tag",
+			"tag",
+			"button",
+			"wrap",
+			"style",
+			"wrapper",
+			"Reading",
+			"PromptExample",
+			"class",
+			"title",
+			"Writing",
+			"branch",
+			"Writing",
+			"verticalScrollView",
+			"color",
+			"itemWrapper",
+			"Border",
+			"border",
+			"bolder",
+			"read",
+			"DayItem",
+			"INIT_ROUTE_INDEX",
+			"styl",
+			"render",
+			"style",
+			"Radius"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n",
+			"",
+			"\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Medium/002.AddTwoNumbers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								411,
+								411
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Medium/001.TwoSum.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								701,
+								701
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 228.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "Leet.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"previ",
+				"templates/tab-previous.html"
+			],
+			[
+				"app.js",
+				"book-store/www/js/app.js"
+			],
+			[
+				"control",
+				"book-store/www/js/controllers.js"
+			],
+			[
+				"tabbarios",
+				"jiong-book/node_modules/react-native/Libraries/Components/TabBarIOS/TabBarIOS.ios.js"
+			],
+			[
+				"wri",
+				"jiong-book/UI/Writing2.js"
+			],
+			[
+				"",
+				"jiong-book/UI/AlertIOSExample.js"
+			],
+			[
+				"alerts",
+				"jiong-book/node_modules/react-native/Libraries/Utilities/AlertIOS.js"
+			],
+			[
+				"scro",
+				"UIExplorer/ScrollViewExample.js"
+			],
+			[
+				"options",
+				"jiong-book/UI/Options.js"
+			],
+			[
+				"view",
+				"jiong-book/node_modules/react-native/Libraries/Components/View/View.js"
+			],
+			[
+				"profile",
+				"Profile.ios.js"
+			],
+			[
+				"instanti",
+				"node_modules/react-native/node_modules/react-haste/renderers/shared/reconciler/instantiateReactComponent.js"
+			],
+			[
+				"index",
+				"index.ios.js"
+			],
+			[
+				"exam",
+				"Exam.ios.js"
+			],
+			[
+				"alert",
+				"AlertIOSExample.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
