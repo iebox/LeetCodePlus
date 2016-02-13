@@ -5,8 +5,9 @@
 
 # Given a string S, find the longest palindromic substring in S. You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
 
-# You are here! 
-# Your runtime beats 10.67% of python submissions.
+
+# Your runtime beats 35.82% of python submissions.
+
 
 
 
@@ -24,43 +25,32 @@ class Solution(object):
 			if match not in strKey:
 				match = match[:-1]
 				break
-
-		# print match
 		return match
 
 	def checkDup(self, strTry, strKey):
-		# print 'strTry:' + strTry
-		spots = []
+		longest = ''
 
 		if strTry == strKey:
-			spots.append( list(strTry) )
-			return spots
+			return strTry
 
 		for i in range(0, len(strTry)):
 			match = self.maxMatch(strTry[i:], strKey)
 
-			if len(match) == abs(len(strTry) - strTry.index(match) - strKey.index(match)):
-			# if len(strTry) - strTry.index(match) == len(match):
-				spots.append( list(match) )
-
-		# return spots.sort(key=len, reverse=True)
-
-		spots.sort(key=len, reverse=True)
-		return spots
+			if len(match) > len(longest):
+				# avoid case as "acxyzca" output ac
+				if len(match) == abs(len(strTry) - strTry.index(match) - strKey.index(match)):
+					longest = match
+		return longest
 
 	def longestPalindrome(self, s):
 		"""
 		:type s: str
 		:rtype: str
 		"""
-		if len(s) == 0:
+		if len(s) > 0:
+			return self.checkDup(s, s[::-1])
+		else:
 			return s
-		# Reverse 
-		sReverted = s[::-1]
-
-		results = self.checkDup(s, sReverted)
-		return ''.join(results[0])
-		# return len(results[0])
 
 
 
@@ -145,7 +135,7 @@ def test():
 	# "aa bb aba",
 	# "aa bccb aba",
 	# "a",
-	# "",
+	"",
 	# # "ab",
 	# "aa",
 	# "abb",
